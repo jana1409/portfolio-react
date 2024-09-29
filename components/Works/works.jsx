@@ -14,6 +14,7 @@ const Works = () => {
                 <img src={port2} alt="" className="worksImg" />
                 <img src={port3} alt="" className="worksImg" />
             </div>
+            <button className="worksBtn">See more</button>
         </section>
 
     );

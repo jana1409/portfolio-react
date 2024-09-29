@@ -8,42 +8,37 @@
     text-align: center;
     
 } 
-  
-
-.contactPage {
-    padding: 20px;
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
-}
 
 .contactPageTitle {
-    font-size: 2.5em;
+    font-size: 3rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     color: #ffffff;
+    border-bottom: 1px solid #ccc;
 }
 
 .clientDesc {
+    display: flex;
     text-align: center;
-    font-size: 1.2em;
-    color: #ffffff;
-    margin-bottom: 30px;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
 }
 
 .clientImgs {
+    margin: 1rem 0;
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    
 }
 
 .clientImg {
-    width: 300px;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    object-fit: cover;
+    width: 10%;
+    min-width: 8rem;
+    margin: auto;
+    padding: 0.25rem;
+    border-bottom: 1px solid #ccc;
+    
 }
 
 .clientImg:hover {
@@ -90,4 +85,16 @@
     border-radius: 0.5rem;
     margin: 2rem;
     padding: 0.75rem 3.5rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem 1rem;
 }

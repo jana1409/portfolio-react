@@ -2,6 +2,8 @@ import React from 'react';
 import './contact.css';
 import college from '../../src/assets/Img2.png';
 import school from '../../src/assets/Img1.jpeg';
+import linkedin from '../../src/assets/linkedin.png';
+import mail from '../../src/assets/mail.png';
 
 const Contact = () => {
     return (
@@ -29,12 +31,11 @@ const Contact = () => {
                     <input type="text" className="email" placeholder='Your Email' />
                     <textarea className='msg' name="message"rows='5' placeholder='Your Message'></textarea>
                     <button type='submit' value='Send' className="submitBtn">Submit</button>
-                    {/* <div className="links">
-                        <img src={} alt="" className="link" />
-                        <img src={} alt="" className="link" />
-                        <img src={} alt="" className="link" />
-                        <img src={} alt="" className="link" />
-                    </div> */}
+                    <div className="links">
+                        <img src={linkedin} alt="" className="link" />
+                        <img src={mail} alt="" className="link" />
+                        
+                    </div>
                 </form>
 
             </div>
