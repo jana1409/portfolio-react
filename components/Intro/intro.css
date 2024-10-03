@@ -40,7 +40,7 @@
     font-weight: 200;
 }
 .btn{
-    background: rgb(216, 179, 179);
+    background: #5c2323;
     margin: 1rem 0;
     padding: 0.75rem 1.75rem;
     border: none;
@@ -66,13 +66,13 @@
     }
 }
 .resume-container {
-    position: fixed;
+    position: flex;
     left: 20px;
     top: 20px; 
   }
 
   .download-button {
-    background-color: #4CAF50;
+    background-color: #5c2323;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -80,6 +80,6 @@
     font-size: 16px;
   }
   .download-button:hover {
-    background-color: #45a049;
+    background-color: #9c5a5a;
   }
   
